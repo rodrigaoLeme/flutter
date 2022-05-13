@@ -39,12 +39,12 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
-              Placeholder(
-                fallbackWidth: 20,
-                fallbackHeight: 150,
-              ),
               SizedBox(
-                height: 50,
+                height: 150,
+                child: Image.asset('imgs/logo.png'),
+              ),
+              const SizedBox(
+                height: 25,
               ),
               const Text(
                 'Get your Money\nUnder Control',
