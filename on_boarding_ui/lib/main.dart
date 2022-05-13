@@ -46,23 +46,30 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(
                 height: 50,
               ),
-              Placeholder(
-                fallbackHeight: 50,
+              const Text(
+                'Get your Money\nUnder Control',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 37,
+                    fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
               ),
-              SizedBox(
-                height: 50,
+              const SizedBox(
+                height: 25,
               ),
-              Placeholder(
-                fallbackHeight: 50,
+              const Text(
+                'Manage your expenses.\nSeamlessly.',
+                style: TextStyle(color: Color(0xFF8E8E93), fontSize: 23),
+                textAlign: TextAlign.center,
               ),
-              SizedBox(
-                height: 100,
+              const SizedBox(
+                height: 98,
               ),
               Container(
                 width: double.infinity,
                 height: 50,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
+                    borderRadius: BorderRadius.circular(5),
                     color: const Color(0xFF5E5CE6)),
               ),
               const SizedBox(
@@ -72,11 +79,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: double.infinity,
                 height: 50,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
+                    borderRadius: BorderRadius.circular(5),
                     color: Colors.white),
               ),
               const SizedBox(
-                height: 40,
+                height: 50,
               ),
               // Text(
               //   'Sign In',
@@ -93,13 +100,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     TextSpan(
                         text: 'Sign In',
                         style: TextStyle(
-                            decoration: TextDecoration.underline,
-                            fontWeight: FontWeight.bold))
+                          decoration: TextDecoration.underline,
+                          //fontWeight: FontWeight.bold
+                        )),
                   ],
                 ),
               ),
               const SizedBox(
-                height: 40,
+                height: 74,
               )
             ],
           ),
