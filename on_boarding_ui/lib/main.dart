@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                 width: double.infinity,
-                height: 50,
+                height: 52,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: const Color(0xFF5E5CE6)),
@@ -77,9 +77,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     Text(
                       'Sign Up with Email ID',
                       style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 19,
-                      ),
+                          color: Colors.white,
+                          fontSize: 19,
+                          fontWeight: FontWeight.bold),
                     ),
                     Spacer(),
                   ],
@@ -90,10 +90,28 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Container(
                 width: double.infinity,
-                height: 50,
+                height: 52,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: Colors.white),
+                child: Row(
+                  children: [
+                    const Spacer(),
+                    SizedBox(
+                      height: 20,
+                      width: 40,
+                      child: Image.asset('imgs/google.png'),
+                    ),
+                    const Text(
+                      'Sign Up with Google',
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 19,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    const Spacer(),
+                  ],
+                ),
               ),
               const SizedBox(
                 height: 50,
