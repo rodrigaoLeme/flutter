@@ -58,16 +58,24 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(
                 height: 100,
               ),
-              Placeholder(
-                fallbackHeight: 50,
+              Container(
+                width: double.infinity,
+                height: 50,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    color: const Color(0xFF5E5CE6)),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              Placeholder(
-                fallbackHeight: 50,
+              Container(
+                width: double.infinity,
+                height: 50,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    color: Colors.white),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 40,
               ),
               // Text(
