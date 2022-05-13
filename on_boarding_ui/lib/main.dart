@@ -71,6 +71,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(5),
                     color: const Color(0xFF5E5CE6)),
+                child: Row(
+                  children: const [
+                    Spacer(),
+                    Text(
+                      'Sign Up with Email ID',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 19,
+                      ),
+                    ),
+                    Spacer(),
+                  ],
+                ),
               ),
               const SizedBox(
                 height: 20,
